@@ -68,10 +68,13 @@ body{
 .containerF {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
+.footerDiv {
+    justify-content: space-around;
+}
 .centerF {
     text-align: center;
 }
@@ -79,7 +82,7 @@ body{
 .tm-social{
     width: 35px;
     height: 35px;
-    padding: 30px;
+    padding: 20px;
 }
 
 /*Estilo do contato.html*/
