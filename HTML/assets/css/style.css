@@ -1,0 +1,97 @@
+/* Estilo do index.html */
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.justify {
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerH1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    padding: 9px;
+    background-color: rgb(0, 111, 139);
+}
+
+#menu li {
+    display: inline;
+    padding: 30px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: #ccae62;
+}
+
+.p{
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+
+.wh{
+    width: 200px;
+    height: 350px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+
+}
+
+.flex-container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerF {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerF {
+    text-align: center;
+}
+
+.tm-social{
+    width: 35px;
+    height: 35px;
+    padding: 30px;
+}
+
+/*Estilo do contato.html*/
+
+.margemLeft {
+    margin-left: 50px;
+}
+
+.containerC {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
