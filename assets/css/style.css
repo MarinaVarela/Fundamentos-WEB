@@ -91,10 +91,6 @@ body{
     margin-left: 50px;
 }
 
-.containerC {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
+.mb-50{
+    margin-bottom: 50px;
+ }
